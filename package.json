@@ -1,0 +1,23 @@
+{
+  "name": "buylow-ren",
+  "version": "1.0.0",
+  "description": "Watch for stocks that drop and get emails",
+  "main": "index.js",
+  "scripts": {
+    "start": "dotenv node index.js",
+    "deploy": "wt cron create --secrets-file .env --name buylow-ren --schedule \"*/5 9-17/1 * * 1-5\" --tz \"America/New_York\" webtask.js"
+  },
+  "author": {
+    "name": "Joel Detweiler <joel.detweiler@gmail.com>"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.10",
+    "mailgun-js": "^0.19.0"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^1.4.0",
+    "wt-cli": "^10.0.3"
+  }
+}
