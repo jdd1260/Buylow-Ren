@@ -7,9 +7,9 @@ Be free of the pain of watching stock prices change. Get stock updates straight 
 ## Features
 
   - Easily Customizable
-  -- Choose stocks you want to follow
-  -- Set a minimum percentage drop that you want to be notified about
-  -- Set a percentage of the 52 Week High that you don't want to be over
+    - Choose stocks you want to follow
+    - Set a minimum percentage drop that you want to be notified about
+    - Set a percentage of the 52 Week High that you don't want to be over
   - Get an email each time a stock price meets your filters AND reaches a new low for the day
   - Deploy and schedule (every 5 minutes 9 am - 5 pm, M-F) with one command, for free
   - Test it out locally without deploying
